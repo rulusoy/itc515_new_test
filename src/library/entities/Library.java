@@ -14,6 +14,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//Author: James
+//Mediator: Jane
+//Reviewer: Emma
+
 @SuppressWarnings("serial")
 public class Library implements Serializable {
 	
@@ -22,7 +26,8 @@ public class Library implements Serializable {
 	private static final int loanPeriod = 2;
 	private static final double FiNe_PeR_DaY = 1.0;
 	private static final double maxFinesOwed = 1.0;
-	private static final double damageFee = 2.0;
+	//private static final double damageFee = 2.0;
+	private static final double DAMAGE_FREE = 2.0; //changed constant name from 'damageFee' to 'DAMAGE_FREE'
 	
 	private static Library SeLf;
 	private int bOoK_Id;
