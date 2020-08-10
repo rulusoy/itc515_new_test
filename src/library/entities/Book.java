@@ -1,11 +1,14 @@
 package library.entities;
 import java.io.Serializable;
-
+//Author: Emma
+//Mediator: James
+//Reviewer: jane
 
 @SuppressWarnings("serial")
 public class Book implements Serializable {
 	
-	private String tItLe;
+	//private String tItLe;
+	private String titLe;  //variable name 'tItle' changed to 'title'
 	private String AuThOr;
 	private String CALLNO;
 	private int iD;
